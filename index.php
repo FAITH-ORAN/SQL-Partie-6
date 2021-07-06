@@ -28,7 +28,7 @@ try{
     $requette1->execute();
     $resultat1=$requette1->fetchAll();
 
-    //exercice 4
+    //exercice 5
     $modif="UPDATE languages SET version=6.1 WHERE language='PHP' AND version=6 ";//mettre à jour l'age de la personne qui porte l'id 1 en utilisant le mot clé WHERE 
    $requette2=$connexion->prepare($modif);
    $requette2->execute();
